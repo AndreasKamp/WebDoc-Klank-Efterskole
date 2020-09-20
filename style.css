@@ -1,0 +1,299 @@
+/* Her defineres hele siden med margin og padding */
+*
+{ 
+padding:0;
+margin:0;}
+/* Her styles udforsk kanppen */
+button{
+       width: 120px;
+    background-image: linear-gradient(#3ac5ff,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+  
+}
+/* Klank efterskole logo - forside */
+#logo1{
+    height: 20%;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+/* Billed galleri til de små billeder */
+.product-small-img img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .6;
+ 
+}
+/* Hover effekt til små billeder galleri */
+.product-small-img img:hover
+{
+   opacity:1;
+ 
+}
+/* Små billeder - galleri */
+.product-small-img{
+    float:left;
+    
+}
+/* Hele class for billedergalleri */
+.product{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+/* Stort billede styles - galleri */
+.img-container img{
+    height: 300px;
+    padding: 10px;
+}
+/* Stort billede styles - galleri */
+.img-container{
+    float:right;
+}
+/* Her styles billede på øverste del af siden */
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(billedes/gulv-banner.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+/* Overskrift øverste del af siden */
+.header h1 {
+    padding-top: 200px;
+        font-size: 35px;
+}
+.header p
+/* Underoverskrift forside */
+{
+    margin: 18px 0;
+}
+/* Searchbar forside */
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+} 
+.form-control {
+    border: 0!important;
+    border-radius: 30px !important;
+    margin:2px;
+    box-shadow:none !important;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#3ac5ff,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    
+}
+/* Her styles første undersektion */
+.features{
+    padding: 100px 0;
+}
+/* Overskrift på video 2 */
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+/* Billeder defineres i galleri sektionen med class - styles samlet */
+{
+   width: 100%; 
+}
+/* Blå knap defineres under billeder i galleri */
+.price
+{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(#3ac5ff,#1f3d90);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px;
+    margin-top: 5px;
+    margin-left:240px;
+}
+/* Galleriboksene styles */
+.feature-details{
+    margin-top: -30px;
+    margin-left: 10px;
+
+}
+/* De små ikoner under billedgalleri styles */
+.features .fa {
+    font-size: 15px;
+    color: #3ac5ff;
+    margin-right: 5px;
+}
+/* Margin i mellem ikoner */
+.feature-details .fa{
+    margin-right: 5px;
+}
+
+.feature-details .fa{
+    margin-right: 5px;
+   
+}
+/* Alle tre galleri bokse styles med skygge omkring */
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+}
+/* anden video sektion styles her  */
+.videogallery{
+    padding: 200px;
+     background-image: linear-gradient(#3ac5ff,#1f3d90);
+      box-shadow: 10px 10px 10px 1px rgba(37,73,214,0.18);
+    
+}
+
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+/* billedbokse bokse under video */
+.gallery-box h4
+{
+    font-size: 20px;
+    width: 200px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+/* Her defineres billedernes størrelse efter morgen video */
+.banner
+{
+   height: 100%;
+    
+   background-image: url(billedes/adventure-banner.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+/* Her defineres billedernes størrelse efter morgen video */
+.banner1
+{
+   height: 100%;
+    
+   background-image: url(billedes/varelse.JPG);
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+}
+/* Her defineres billedernes størrelse efter morgen video */
+.banner2
+{
+   height: 100%;
+    
+   background-image: url(billedes/hal.JPG);
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+}
+html{scroll-behavior: smooth;
+}
+
+.booking-btn {
+     width: 120px;
+    padding: 7px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 1000px;
+    margin-top: -100
+    
+}
+/* Her defineres video2 sektionen */
+.user-review{
+    padding: 200px; 0;
+     background: #efefef;
+}
+/* Footer sektion styles */
+.footer
+{
+    padding: 50px 20px;
+ background-image: linear-gradient(#3ac5ff,#1f3d90);
+    color: #fff;
+}
+/* Footer skrift */
+.footer h4{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+/* footer p tags */
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+}
+/* footer baggrund defineres her */
+#baggrund{
+    background-color: #E0E0E0;
+}
+/* Video1 class */
+.uke{
+margin-left: -50px;
+    margin-top: -20px;
+    width: 1000px;
+    border-radius: 20px;
+}
+#tekst1{
+    margin-top: -190px;
+}
+/* video 2 placeres korrekt på siden */
+.video2{ 
+margin-left: -80px;
+    margin-top: -20px;
+    width: 1000px;
+    border-radius: 20px;
+    }
+#tekst2 {
+    margin-top: -140
+}
+/* Tekstsektion defineres her ved hjælp af disse elementer */
+#tekstsec{
+    padding:40px;
+    background-color: #E0E0E0;
+    margin-left: 150px;
+    margin-right: 113px;
+    margin-top:-50px;
+     margin-bottom:50px;
+}
+/* Tekst overskrift i tekstsektionen - angives for at kunne styles */
+#secoverskrift{
+    margin-top: -40px;
+}
